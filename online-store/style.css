@@ -100,3 +100,18 @@ footer img#plant-list {
     width: 6rem;
     margin: 0 1rem;
 }
+
+@media (max-width: 1005px) { 
+    body { 
+        border: none;
+    }
+
+    footer button {
+        padding: 1rem 2rem;
+    }
+
+    footer img#plant-list {
+        width: 5rem;
+        margin: 0 1rem;
+    }
+}
