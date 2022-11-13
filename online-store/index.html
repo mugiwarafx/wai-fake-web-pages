@@ -10,7 +10,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">🪴</a></li>
+            <li><a href="#">🪴</span></a></li>
             <li><a href="#">Our Products</a></li>
             <li><a href="#">Shopping Cart</a></li>
             <li><a href="#">Hi, Jow!</a></li>
@@ -34,7 +34,15 @@
                     </select>
                 </div>
                 <label for="ccnum">Credit card number:</label>
-                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <div id="fakeInput" class="custom-select">
+                  <select>
+                      <option contenteditable="true" value="0">Previously used cards</option>
+                      <option value="1">1111-2222-3333-4444</option>
+                      <option value="2">4444-4444-4444-4444</option>
+                      <option value="3">2222-2222-2222-2222</option>
+                      <option value="4">3333-3333-3333-3333</option>
+                  </select>
+              </div>
                 <label for="adr"><i class="fa fa-address-card-o"></i> You are all set!</label>
                 <input type="button" id="submit" value="Continue to checkout">
             </form>
