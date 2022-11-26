@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Store</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">🪴</span></a></li>
+            <li><a href="#">Our Products</a></li>
+            <li><a href="#">Shopping Cart</a></li>
+            <li><a href="#">Hi, Jow!</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-wrapper">
+            <form>
+                <label for="fname"><i class="fa fa-user"></i> Full Name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Jow M. Doe">
+                <label for="email"><i class="fa fa-envelope"></i> Email:</label>
+                <input type="text" id="email" name="email" placeholder="jow@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address:</label>
+                <div id="fakeInput" class="custom-select">
+                    <select>
+                        <option contenteditable="true" value="0">Select or type a new address</option>
+                        <option value="1">London - 145 St Pauls Ave</option>
+                        <option value="2">New York - 2343 Hanover Street</option>
+                        <option value="3">Barcelona - 130 Ronda Sant Antoni</option>
+                        <option value="4">Buenos Aires - 31 Santa Rosa</option>
+                    </select>
+                </div>
+                <label for="ccnum">Credit card number:</label>
+                <div id="fakeInput" class="custom-select">
+                  <select>
+                      <option contenteditable="true" value="0">Previously used cards</option>
+                      <option value="1">1111-2222-3333-4444</option>
+                      <option value="2">4444-4444-4444-4444</option>
+                      <option value="3">2222-2222-2222-2222</option>
+                      <option value="4">3333-3333-3333-3333</option>
+                  </select>
+              </div>
+                <label for="adr"><i class="fa fa-address-card-o"></i> You are all set!</label>
+                <input type="button" id="submit" value="Continue to checkout">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <button class="back">back</button>
+        <div id="column-style">
+          <img id="plant-list" src="./assets/plant.png">
+          <figcaption id="price">19.99$</figcaption>
+        </div>
+        <button class="next">next</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
